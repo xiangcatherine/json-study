@@ -10,8 +10,9 @@
 
 By the end of this, developers should be able to:
 
--   Explain why JSON is preferable to HTML or XML for sending data
--   Name three constraints of JSON over JavaScript object literals
+-   Model data using JSON.
+-   Explain why JSON is preferable to HTML or XML for sending data.
+-   Name three constraints of JSON over JavaScript object literals.
 
 ## Instructions
 
