@@ -8,38 +8,35 @@ search. We ask you to write responses in your own words in order to see how you
 process what you've read. Please do not respond with direct quotes from source
 material. Instead, digest what you've read and repeat it in your own voice.
 
-## Required Readings
+## Required Reading
 
--   [Example Reading](https://www.github.com/ga-wdi-boston/example)
--   [Example Reading](https://www.github.com/ga-wdi-boston/example)
--   [Example Reading](https://www.github.com/ga-wdi-boston/example)
+### JSON
 
-## Instructions
+JSON is a way to represent data. It is typically used to communicate data
+between an application programming interface (API) and a client. JSON is a string with a very specific format and it is formally defined at [http://www.json.org](http://www.json.org).
 
-Read this document entirely. Follow any links and study their content. Readings
-and activities are **required** unless otherwise indicated.
+A great way to become familiar with the format is to look at some [examples](http://www.json.org/example.html).
 
-## JSON
+JSON is:
+-   a data exchange format.
+-   a way to represent data.
+-   a string with a specific format.
 
-JSON is a way to represent data. It's typically used to communicate data between
-a back-end (*api*) and a front-end (*client*). JSON is a string with a very
-specific format. JSON is formally defined [here](http://www.json.org/).
+JSON is not:
+-   a dictionary.
+-   an object.
+-   an object literal.
 
-[Example JSON strings](http://json.org/example.html) are a great way to become
-familiar with the format.
+JSON does not support:
+-   comments.
+-   methods.
 
-JSON is not a dictionary. JSON is not an object, nor is it an object literal.
-JSON is only a string with a specific format.
+Attempts to treat JSON as if it were a JavaScript object literal or as anything
+other than a string is a common source of errors that can be difficult to find
+and debug.
 
-JSON cannot have comments, since it is just a string. Putting comments in JSON,
-or otherwise treating JSON as if it is a JavaScript object literal, is a common
-source of hard-to-debug errors.
-
-JSON cannot have methods, since it is a data exchange format. Since it only
-represents data, it cannot have behavior. It cannnot have behavior because it is
-not an object.
-
-JSON only looks like an object. It is not an object.
+Remember, data represented with JSON looks like an object, but it is only a
+string.
 
 ## JSON Example
 
