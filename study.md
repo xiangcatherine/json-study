@@ -38,15 +38,16 @@ and debug.
 Remember, data represented with JSON looks like an object, but it is only a
 string.
 
-## JSON Example
+## Modeling Data Using JSON: Part I
 
-As it makes sense to you please write the following in JSON format:
+Write a JSON representation of the following data that makes sense to you.
 
--   Jason has many things...
--   A Cat named Mr.Kitty
--   Two roomates named Dave and Miller
--   A Love of the Red Sox, Patriots and Bruins
--   Has lived in two places recently: 123 Fake street, and 2 Muchinfo Road
+A kitchen has many items.
+-   A cupboard containing bowls and plates.
+-   An electric stove with four heating elements; small, medium, large, and
+    extra large.
+-   An herbs and spices rack containing chives, lemon grass, and mint on one
+    rack, and cinnamon, nutmeg, and vanilla on another shelf.
 
 ```json
 <!-- your answer here -->
