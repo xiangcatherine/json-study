@@ -53,9 +53,13 @@ A kitchen has many items.
 <!-- your answer here -->
 ```
 
-I forgot, my roomate Dave has two goldfish, one named Bob (he's red) and the
-other named Mr.MagicNibbles (yellow) and bites a bit. Please copy the JSON you
-already wrote and include the information about Dave's fish.
+## Modeling Data Using JSON: Part II
+
+The kitchen also has a fruit basket containing several cultivars of apples in
+different amounts. There are 2 Fuji apples, 7 Gala apples, and 1 Golden
+delicious apple.
+
+Copy the JSON that you wrote for the previous question and include the new information about the kitchen.
 
 ```json
 <!-- your answer here -->
