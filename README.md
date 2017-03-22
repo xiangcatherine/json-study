@@ -10,7 +10,7 @@
 
 By the end of this, developers should be able to:
 
--   Model data using JSON.
+-   Model data using JavaScript Object Notation (JSON).
 -   Explain why JSON is preferable to HTML or XML for sending data.
 -   Name three constraints of JSON over JavaScript object literals.
 

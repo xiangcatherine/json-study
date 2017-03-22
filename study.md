@@ -12,7 +12,7 @@ material. Instead, digest what you've read and repeat it in your own voice.
 
 ### JSON
 
-JSON is a way to represent data. It is typically used to communicate data
+JavaScript Object Notation (JSON) is a way to represent data. It is typically used to communicate data
 between an application programming interface (API) and a client. JSON is a string with a very specific format and it is formally defined at [http://www.json.org](http://www.json.org).
 
 A great way to become familiar with the format is to look at some [examples](http://www.json.org/example.html).
