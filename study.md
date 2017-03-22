@@ -67,7 +67,7 @@ Copy the JSON that you wrote for the previous question and include the new infor
 
 ## JSON Methods
 
-Using the JSON your wrote above, can you write a method on the JSON?
+Can you write a method in the JSON that you wrote above?
 
 ```json
 <!-- your answer here -->
@@ -75,7 +75,7 @@ Using the JSON your wrote above, can you write a method on the JSON?
 
 ## JSON Comments
 
-Using the JSON your wrote above, can you write a comment in the JSON?
+Can you write comments in the JSON that you wrote above?
 
 ```json
 <!-- your answer here -->
