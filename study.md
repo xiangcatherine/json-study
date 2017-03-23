@@ -1,49 +1,65 @@
 # JSON Study
 
-## Instructions
+Use your favorite search engine and the provided readings to research and
+respond to the following questions.
 
-Read this document entirely. Follow any links and study their content. Readings
-and activities are **required** unless otherwise indicated.
+In your responses, be sure to cite any relevant sources you consulted in your
+search. We ask you to write responses in your own words in order to see how you
+process what you've read. Please do not respond with direct quotes from source
+material. Instead, digest what you've read and repeat it in your own voice.
 
-## JSON
+## Required Reading
 
-JSON is a way to represent data. It's typically used to communicate data between
-a back-end (*api*) and a front-end (*client*). JSON is a string with a very
-specific format. JSON is formally defined [here](http://www.json.org/).
+### JSON
 
-[Example JSON strings](http://json.org/example.html) are a great way to become
-familiar with the format.
+JavaScript Object Notation (JSON) is a way to represent data. It is typically used to communicate data
+between an application programming interface (API) and a client. JSON is a string with a very specific format and it is formally defined at [http://www.json.org](http://www.json.org).
 
-JSON is not a dictionary. JSON is not an object, nor is it an object literal.
-JSON is only a string with a specific format.
+A great way to become familiar with the format is to look at some [examples](http://www.json.org/example.html).
 
-JSON cannot have comments, since it is just a string. Putting comments in JSON,
-or otherwise treating JSON as if it is a JavaScript object literal, is a common
-source of hard-to-debug errors.
+JSON is:
+-   a data exchange format.
+-   a way to represent data.
+-   a string with a specific format.
 
-JSON cannot have methods, since it is a data exchange format. Since it only
-represents data, it cannot have behavior. It cannnot have behavior because it is
-not an object.
+JSON is not:
+-   a dictionary.
+-   an object.
+-   an object literal.
 
-JSON only looks like an object. It is not an object.
+JSON does not support:
+-   comments.
+-   methods.
 
-## JSON Example
+Attempts to treat JSON as if it were a JavaScript object literal or as anything
+other than a string is a common source of errors that can be difficult to find
+and debug.
 
-As it makes sense to you please write the following in JSON format:
+Remember, data represented with JSON looks like an object, but it is only a
+string.
 
--   Jason has many things...
--   A Cat named Mr.Kitty
--   Two roomates named Dave and Miller
--   A Love of the Red Sox, Patriots and Bruins
--   Has lived in two places recently: 123 Fake street, and 2 Muchinfo Road
+## Modeling Data Using JSON: Part I
+
+Write a JSON representation of the following data that makes sense to you.
+
+A kitchen has many items.
+-   A cupboard containing bowls and plates.
+-   An electric stove with four heating elements; small, medium, large, and
+    extra large.
+-   An herbs and spices rack containing chives, lemon grass, and mint on one
+    rack, and cinnamon, nutmeg, and vanilla on another shelf.
 
 ```json
 <!-- your answer here -->
 ```
 
-I forgot, my roomate Dave has two goldfish, one named Bob (he's red) and the
-other named Mr.MagicNibbles (yellow) and bites a bit. Please copy the JSON you
-already wrote and include the information about Dave's fish.
+## Modeling Data Using JSON: Part II
+
+The kitchen also has a fruit basket containing several cultivars of apples in
+different amounts. There are 2 Fuji apples, 7 Gala apples, and 1 Golden
+delicious apple.
+
+Copy the JSON that you wrote for the previous question and include the new information about the kitchen.
 
 ```json
 <!-- your answer here -->
@@ -51,7 +67,7 @@ already wrote and include the information about Dave's fish.
 
 ## JSON Methods
 
-Using the JSON your wrote above, can you write a method on the JSON?
+Can you write a method in the JSON that you wrote above?
 
 ```json
 <!-- your answer here -->
@@ -59,7 +75,7 @@ Using the JSON your wrote above, can you write a method on the JSON?
 
 ## JSON Comments
 
-Using the JSON your wrote above, can you write a comment in the JSON?
+Can you write comments in the JSON that you wrote above?
 
 ```json
 <!-- your answer here -->
